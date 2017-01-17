@@ -1,7 +1,18 @@
 <mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="QuickStartApplication.controller.View1">
 	<App>
 		<pages>
+<<<<<<< HEAD
+			<Page title="my First Git Application" showFooter="false">
+			<content>
+			    <TileContainer editable="true" allowAdd="true" id="containerTile">
+			        <tiles>
+			            <StandardTile title="Create Project" infoState="Error" id="tileCreateProject" icon="sap-icon://create" removable="false" tooltip="Create Project"/>
+			            <StandardTile title="Update Project" infoState="Success" id="tileUpdateProject" icon="sap-icon://customize" removable="false"/></tiles>
+			    </TileContainer>
+			</content>
+=======
 			<Page title="my First Git Application">
+>>>>>>> 16810d7d7f72d75c7dd4e548a9d73c2b2d4cf3ea
 			</Page>
 		</pages>
 	</App>
